@@ -29,6 +29,7 @@ const enemy = new Sprite({
 })
 
 console.log(draw)
+console.log('testing')
 
 
 enemy.draw()
