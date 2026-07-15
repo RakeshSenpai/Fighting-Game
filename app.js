@@ -28,6 +28,7 @@ const enemy = new Sprite({
     y: 100
 })
 
-const loop = new Sprite(requestAnimationFrame())
+console.log(draw)
+
 
 enemy.draw()
