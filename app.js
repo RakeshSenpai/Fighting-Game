@@ -19,6 +19,13 @@ class Sprite{
         c.fillStyle = 'red';
         c.fillRect(this.position.x, this.position.y, 50, 150)
     }
+
+    update(){
+        this.draw();
+        this.position.y = this.position.y + 10;
+        this.position.y += 10;
+        
+    }
 }
 
 //Core
