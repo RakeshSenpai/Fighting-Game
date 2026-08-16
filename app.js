@@ -24,7 +24,7 @@ class Sprite{
         this.draw();
         this.position.y = this.position.y + 10;
         this.position.y += 10;
-        
+         
     }
 }
 
@@ -43,7 +43,6 @@ const player = new Sprite({
 
 })
 
-player.draw()
 
 
 const enemy = new Sprite({
@@ -58,10 +57,13 @@ const enemy = new Sprite({
 
 })
 
-enemy.draw()
 
 console.log(player);
 
 function animate(){
     requestAnimationFrame(animate);
+    // player.update()
+    // enemy.update()
 }
+ 
+// animate()
